@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	height: 100vh;
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +46,40 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header ul a {
+    color: #1351d8;
+}
+
+.footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b357e;
+    color: white;
+
+}
+
+.footer div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer div:first-child > img {
+    width: 30px;
 }
