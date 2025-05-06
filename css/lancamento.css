@@ -24,6 +24,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
+    color: #1351d8;
+    font-size: large;
+    font-weight: bold;
 }
 
 .input {

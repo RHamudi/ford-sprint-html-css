@@ -56,6 +56,17 @@ table {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header span {
+    width: 226px;
 }
 
 .header ul {
@@ -68,7 +79,7 @@ table {
 }
 
 .footer {
-    padding: 10px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     background-color: #1b357e;
