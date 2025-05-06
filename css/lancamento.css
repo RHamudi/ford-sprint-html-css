@@ -1,8 +1,47 @@
-main div:nth-child(1) {
+main:nth-child(1) {
     width: 100%;
 }
 
-main div:nth-child(2) {
+.galeria {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.galeria img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textoGaleria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 30px;
+    height: 30px;
+}
+
+.button {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.button button {
+    width: 20%;
+    height: 200%;
+    background-color: #1351d8;
+    border-radius: 10px;
+    color: white;
+    border: none;
 }
