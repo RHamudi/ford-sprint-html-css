@@ -5,14 +5,25 @@ main {
     align-items: center;
     gap: 20px;
     font-size: large;
+    height: 79%;
 }
 
 main div {
     display: flex;
 }
 
+main p {
+    text-align: center;
+}
+
 main img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+@media (max-width: 745px) {
+    main {
+        height: 84vh;
+    }
 }

@@ -2,6 +2,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 79vh;
 }
 
 main img {
@@ -43,4 +44,15 @@ main button {
     border-radius: 10px;
     color: white;
     border: none;
+}
+
+@media (max-width: 745px) {
+    main img{
+        height: 100px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
 }

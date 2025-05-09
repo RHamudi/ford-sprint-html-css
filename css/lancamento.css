@@ -18,6 +18,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 79%;
 }
 
 .textoGaleria {
@@ -42,10 +43,26 @@ main {
 }
 
 .button button {
-    width: 20%;
-    height: 200%;
+    padding: 10px;
     background-color: #1351d8;
     border-radius: 10px;
     color: white;
     border: none;
+}
+
+@media (max-width: 745px) {
+    main {
+        height: 85vh;
+    }
+
+    main iframe {
+        height: 300px;
+    }
+    main {
+        justify-content: center;
+    }
+
+    .header {
+        padding: 10px;
+    }
 }
