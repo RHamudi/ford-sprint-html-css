@@ -46,6 +46,10 @@ main button {
     border: none;
 }
 
+main button:hover {
+    background-color: darkblue;
+}
+
 @media (max-width: 745px) {
     main img{
         height: 100px;

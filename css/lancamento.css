@@ -50,6 +50,10 @@ main {
     border: none;
 }
 
+.button button:hover {
+    background-color: darkblue;
+}
+
 @media (max-width: 745px) {
     main {
         height: 85vh;
