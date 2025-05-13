@@ -83,9 +83,10 @@ table {
     color: white;
 }
 
-.footer div:first-child {
+.footer div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: end;
     align-items: center;
     gap: 5px;
 }
@@ -97,5 +98,33 @@ table {
 @media (max-width: 745px) {
     .header img {
         width: 100px;
+    }
+
+    .footer p {
+        font-size: 2vw;
+    }
+
+    .footer img {
+        width: 15vw;
+    }
+
+    #direitos {
+        display: flex;
+        justify-content: end;
+    }
+
+    #direitos div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #sociais {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    #sociais img {
+        width: 5vw;
     }
 }

@@ -50,6 +50,10 @@ main button:hover {
     background-color: darkblue;
 }
 
+#mensagem {
+    resize: none;
+}
+
 @media (max-width: 745px) {
     main img{
         height: 100px;
