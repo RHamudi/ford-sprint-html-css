@@ -2,7 +2,7 @@ main:nth-child(1) {
     width: 100%;
 }
 
-.galeria {
+table {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,14 +21,19 @@ main {
     height: 79%;
 }
 
-.textoGaleria {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
+td {
+    height: 40px;
+    vertical-align: middle;
     color: #1351d8;
     font-size: large;
     font-weight: bold;
+}
+
+td div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .input {
