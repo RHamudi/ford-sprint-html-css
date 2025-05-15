@@ -55,13 +55,19 @@ main button:hover {
 }
 
 @media (max-width: 745px) {
-    main img{
-        height: 100px;
+    main div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-
     main {
         display: flex;
         flex-direction: column;
         height: 83vh;
+    }
+    main form div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

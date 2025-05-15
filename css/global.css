@@ -48,6 +48,7 @@ table {
 	border-spacing: 0;
 }
 
+/* toda estilização do header global */
 .header {
     display: flex;
     justify-content: space-between;
@@ -62,12 +63,12 @@ table {
     text-decoration: none;
 }
 
-.header ul {
+.header nav {
     display: flex;
     gap: 20px;
 }
 
-.header ul a {
+.header nav a {
     color: #1351d8;
 }
 
@@ -75,6 +76,7 @@ table {
     width: 94px;
 }
 
+/*  */
 .footer {
     padding: 10px 20px;
     display: flex;
@@ -97,6 +99,10 @@ table {
 
 @media (max-width: 745px) {
     .header img {
+        width: 100px;
+    }
+
+    .header span {
         width: 100px;
     }
 
